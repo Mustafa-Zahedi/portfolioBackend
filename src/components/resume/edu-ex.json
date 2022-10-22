@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_edu_ex_edu_exes",
+  "info": {
+    "displayName": "Edu-Ex",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "periodDate": {
+      "type": "string",
+      "required": true
+    },
+    "periodTitle": {
+      "type": "string"
+    }
+  }
+}

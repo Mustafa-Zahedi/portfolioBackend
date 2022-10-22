@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_mes",
+  "info": {
+    "singularName": "about-me",
+    "pluralName": "about-mes",
+    "displayName": "aboutMe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.client"
+    },
+    "funFacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.fun-fact"
+    },
+    "pricing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.pricing"
+    },
+    "properties": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.property"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.testimoial"
+    },
+    "whatIDo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.what-i-do"
+    }
+  }
+}

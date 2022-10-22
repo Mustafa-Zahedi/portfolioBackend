@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

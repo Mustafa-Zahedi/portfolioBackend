@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "displayName": "project",
+    "icon": "birthday-cake",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": false
+    },
+    "href": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "technologies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.technologies"
+    }
+  }
+}

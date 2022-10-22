@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_property_properties",
+  "info": {
+    "displayName": "property",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Residence": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "integer"
+    },
+    "Address": {
+      "type": "text",
+      "required": false
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  }
+}

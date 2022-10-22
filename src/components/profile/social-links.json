@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_profile_social_links",
+  "info": {
+    "displayName": "social_links"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

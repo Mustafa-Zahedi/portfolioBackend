@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_resume_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

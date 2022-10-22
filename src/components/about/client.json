@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_client_clients",
+  "info": {
+    "displayName": "client",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "text",
+      "required": true,
+      "default": "http://"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

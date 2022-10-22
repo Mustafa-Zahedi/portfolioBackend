@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_knowledge_knowledges",
+  "info": {
+    "displayName": "knowledge",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
