@@ -2,11 +2,12 @@
   "collectionName": "components_contact_contacts",
   "info": {
     "displayName": "contact",
-    "icon": "align-right"
+    "icon": "align-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "text": {
       "type": "string",
       "required": true
     },
@@ -14,11 +15,12 @@
       "type": "text"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

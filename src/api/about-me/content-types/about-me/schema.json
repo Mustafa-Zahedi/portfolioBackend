@@ -4,43 +4,46 @@
   "info": {
     "singularName": "about-me",
     "pluralName": "about-mes",
-    "displayName": "aboutMe",
-    "description": ""
+    "displayName": "aboutMe"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.property"
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "whatIDo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.what-i-do"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.testimoial"
+    },
     "clients": {
       "type": "component",
       "repeatable": true,
       "component": "about.client"
-    },
-    "funFacts": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about.fun-fact"
     },
     "pricing": {
       "type": "component",
       "repeatable": true,
       "component": "about.pricing"
     },
-    "properties": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about.property"
-    },
-    "testimonial": {
+    "funFacts": {
       "type": "component",
       "repeatable": true,
-      "component": "about.testimoial"
-    },
-    "whatIDo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about.what-i-do"
+      "component": "about.fun-fact"
     }
   }
 }

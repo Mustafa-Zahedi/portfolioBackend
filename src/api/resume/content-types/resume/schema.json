@@ -4,7 +4,8 @@
   "info": {
     "singularName": "resume",
     "pluralName": "resumes",
-    "displayName": "resume"
+    "displayName": "resume",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -35,6 +36,11 @@
       "type": "component",
       "repeatable": true,
       "component": "resume.certificate"
+    },
+    "designSkills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.skill"
     }
   }
 }

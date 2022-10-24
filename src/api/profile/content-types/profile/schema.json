@@ -26,9 +26,17 @@
       "component": "profile.social-links"
     },
     "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
       "multiple": false

@@ -11,10 +11,6 @@
       "type": "string",
       "required": true
     },
-    "type": {
-      "type": "string",
-      "required": false
-    },
     "href": {
       "type": "text"
     },
@@ -36,6 +32,11 @@
       "type": "component",
       "repeatable": true,
       "component": "portfolio.technologies"
+    },
+    "types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project-type.project-type"
     }
   }
 }

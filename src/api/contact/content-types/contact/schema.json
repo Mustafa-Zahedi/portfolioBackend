@@ -1,17 +1,21 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "contacts",
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "contact"
+    "displayName": "contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "contact_links": {
+    "Slug": {
+      "type": "uid"
+    },
+    "links": {
       "type": "component",
       "repeatable": true,
       "component": "contact.contact"
